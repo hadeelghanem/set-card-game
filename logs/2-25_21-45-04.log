@@ -1,0 +1,76 @@
+[21:45:04.245] [INFO   ] thread main starting.
+[21:45:04.252] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[21:45:04.262] [SEVERE ] configuration file was loaded from resources directory.
+[21:45:05.390] [INFO   ] thread dealer starting.
+[21:45:05.396] [INFO   ] thread dealer starting.
+[21:45:05.397] [SEVERE ] updating countdown to 15000
+[21:45:05.420] [SEVERE ] placing card 78 in slot 1
+[21:45:05.435] [SEVERE ] placing card 41 in slot 7
+[21:45:05.450] [SEVERE ] placing card 17 in slot 11
+[21:45:05.481] [SEVERE ] placing card 14 in slot 6
+[21:45:05.497] [SEVERE ] placing card 74 in slot 3
+[21:45:05.513] [SEVERE ] placing card 23 in slot 10
+[21:45:05.528] [SEVERE ] placing card 20 in slot 4
+[21:45:05.543] [SEVERE ] placing card 32 in slot 5
+[21:45:05.559] [SEVERE ] placing card 33 in slot 0
+[21:45:05.574] [SEVERE ] placing card 15 in slot 9
+[21:45:05.589] [SEVERE ] placing card 0 in slot 2
+[21:45:05.604] [SEVERE ] placing card 18 in slot 8
+[21:45:05.605] [SEVERE ] updating countdown to 15000
+[21:45:05.605] [INFO   ] thread 0 starting.
+[21:45:05.605] [INFO   ] thread 1 starting.
+[21:45:05.621] [SEVERE ] updating countdown to 15000
+[21:45:06.143] [SEVERE ] key 85 was pressed by player 2
+[21:45:06.487] [SEVERE ] key 85 was pressed by player 2
+[21:45:06.634] [SEVERE ] updating countdown to 14000
+[21:45:06.724] [SEVERE ] key 73 was pressed by player 2
+[21:45:07.243] [SEVERE ] key 73 was pressed by player 2
+[21:45:07.550] [SEVERE ] key 75 was pressed by player 2
+[21:45:07.607] [SEVERE ] key 74 was pressed by player 2
+[21:45:07.639] [SEVERE ] updating countdown to 13000
+[21:45:07.693] [SEVERE ] key 85 was pressed by player 2
+[21:45:08.648] [SEVERE ] updating countdown to 12000
+[21:45:09.511] [SEVERE ] exit button pressed
+[21:45:09.512] [INFO   ] thread 1 terminated.
+[21:45:09.512] [INFO   ] thread 0 terminated.
+[21:45:09.650] [SEVERE ] updating countdown to 11000
+[21:45:10.658] [SEVERE ] updating countdown to 10000
+[21:45:11.665] [SEVERE ] updating countdown to 9000
+[21:45:12.700] [SEVERE ] updating countdown to 8000
+[21:45:13.703] [SEVERE ] updating countdown to 7000
+[21:45:14.717] [SEVERE ] updating countdown to 6000
+[21:45:15.722] [SEVERE ] updating countdown to 5000
+[21:45:16.728] [SEVERE ] updating countdown to 4000
+[21:45:17.735] [SEVERE ] updating countdown to 3000
+[21:45:18.743] [SEVERE ] updating countdown to 2000
+[21:45:19.748] [SEVERE ] updating countdown to 1000
+[21:45:20.636] [SEVERE ] removing tokens from slot 5
+[21:45:20.636] [SEVERE ] removing card from slot 5
+[21:45:20.652] [SEVERE ] removing tokens from slot 8
+[21:45:20.653] [SEVERE ] removing card from slot 8
+[21:45:20.668] [SEVERE ] removing tokens from slot 10
+[21:45:20.669] [SEVERE ] removing card from slot 10
+[21:45:20.684] [SEVERE ] removing tokens from slot 9
+[21:45:20.685] [SEVERE ] removing card from slot 9
+[21:45:20.700] [SEVERE ] removing tokens from slot 0
+[21:45:20.701] [SEVERE ] removing card from slot 0
+[21:45:20.715] [SEVERE ] removing tokens from slot 3
+[21:45:20.715] [SEVERE ] removing card from slot 3
+[21:45:20.731] [SEVERE ] removing tokens from slot 7
+[21:45:20.732] [SEVERE ] removing card from slot 7
+[21:45:20.747] [SEVERE ] removing tokens from slot 6
+[21:45:20.747] [SEVERE ] removing card from slot 6
+[21:45:20.763] [SEVERE ] updating countdown to 0
+[21:45:20.763] [SEVERE ] removing tokens from slot 2
+[21:45:20.764] [SEVERE ] removing card from slot 2
+[21:45:20.779] [SEVERE ] removing tokens from slot 11
+[21:45:20.780] [SEVERE ] removing card from slot 11
+[21:45:20.795] [SEVERE ] removing tokens from slot 4
+[21:45:20.795] [SEVERE ] removing card from slot 4
+[21:45:20.811] [SEVERE ] removing tokens from slot 1
+[21:45:20.811] [SEVERE ] removing card from slot 1
+[21:45:20.813] [SEVERE ] announcing winner(s): player 1, player 2
+[21:45:20.818] [INFO   ] thread dealer terminated.
+[21:45:20.819] [INFO   ] thread dealer terminated.
+[21:45:20.819] [SEVERE ] thanks for playing... it was fun!
+[21:45:20.820] [INFO   ] thread main terminated.

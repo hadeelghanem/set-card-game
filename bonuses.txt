@@ -1,0 +1,50 @@
+BONUS CHALLENGE FORM
+--------------------
+
+For each bonus challenge you have implemented, please replace the sentence "We are not entitled to this bonus."
+with a short description of:
+
+1. How it was implemented in your code
+2. Where it was used (in which class methods).
+3. How you tested that it is working correctly.
+
+--------------------
+
+1. Fully supporting all configuration fields and avoiding the use of magic numbers
+
+- we used the given files and the env to call configuration fields instead of using magic numbers.
+- we used it in:
+the class table in the methods placeCard() and removeCard().
+the class Player in the methods run(), point(), penalty(), createArtificialIntelligence() and fillTheList.
+the class Dealer in the methods run() handleValidSet(), findEmptySlots(), updateTimerDisplay and findFilledSlots().
+the class timer in the constructor and in the updateCountdown() method.
+- we runned examples to check that it's true.
+
+--------------------
+
+2. Terminating all threads (that you created) gracefully and in reverse order to the order they were created in.
+
+- we used join() in the function terminate() in the class Players and iterated over the list of the threads from the end to the beginning in the dealer terminate() function.
+- in the Player class and in the Dealer class.
+- after the end of the game the code prints "thread " + Thread.currentThread().getName() + " terminated.", we did a test and check the order of the printing.
+
+
+--------------------
+
+3. Handling the config.turnTimeoutMillis value as follows:
+config.turnTimeoutMillis < 0: display nothing.
+config.turnTimeoutMillis = 0: display a timer since the last action (reshuffle or set collected).
+Note: in modes without a countdown timer the dealer must ensure there is always at least one legal set on the table.
+
+- if config.turnTimeoutMillis < 0 we checked this at the beginning of the run function in dealer class and if true we called env.ui.dispose() function.
+if config.turnTimeoutMillis = 0 we didn't exactly understand what is this bonus
+- in the run() method in the Dealer class.
+- we changed the TurnTimeoutSeconds in the config.properties file to several values and did a test.
+
+--------------------
+
+4. Making sure that the threads do not wake up unless some actual job needs to be done (e.g., a value needs to be
+changed on the display, key input needs to be handled, etc.) and the only threads created by you are:
+1 thread per player + 1 additional thread for non-human players.
+
+We are not entitled to this bonus.
